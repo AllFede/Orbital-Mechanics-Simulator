@@ -5,13 +5,13 @@ import matplotlib.pyplot as plt
 # COSTANTS OF THE PROJECT
 # -------------------------------
 
-# Costante gravitazionale (N*m^2/Kg^2)
+# Gravitational Costant (N*m^2/Kg^2)
 G = 6.67430e-11
 
-# Massa della Terra (Kg)
+# Earth Mass (Kg)
 M = 5.972e24
 
-# Raggio della Terra (m)
+# Earth Radius (m)
 R = 6.371e6
 
 # -------------------------------
