@@ -38,7 +38,7 @@ vy0 = v0
 # ORBIT SIMULATION
 # -------------------------------
 
-#Using Euler's metohod we upgrade the position and velocity of the satellite in any time interval
+#Using Euler's metohod we update the position and velocity of the satellite in any time interval
 
 #Simulation time (s)
 dt = 1 
@@ -60,11 +60,11 @@ for _ in range(int(t_max / dt)):
   ax = a * x_vals[-1]
   ay = a * y_vals[-1]
 
-  #Velocity upgrade
+  #Velocity update
   vx += ax * dt
   vy += ay * dt
 
-  #Position upgrade
+  #Position update
   x_new = x_vals[-1] + vx * dt
   y_new = y_vals[-1] + vy * dt
 
